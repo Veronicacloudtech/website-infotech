@@ -21,3 +21,12 @@ jobs:
 
       - name: Display index.html
         run: cat index.html
+
+deploy3:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Display index.html
+        run: cat index.html
