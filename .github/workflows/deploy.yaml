@@ -6,7 +6,7 @@ on:
       - cicd
 
 jobs:
-  deploy 1:
+  deploy1:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -15,7 +15,7 @@ jobs:
       - name: Run a Linux command
         run: ls -la
 
-        deploy 2:
+        deploy2:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
